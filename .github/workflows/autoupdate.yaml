@@ -22,7 +22,7 @@ jobs:
         run: npx pnpm i
 
       - name: Update sponsors
-        run: npm run build
+        run: ./build.sh
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: ${{ secrets.SPONSORKIT_GITHUB_LOGIN }}
