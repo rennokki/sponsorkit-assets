@@ -31,6 +31,6 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           message: "chore: update sponsors"
-          add: "sponsors.*"
+          add: "assets/sponsors.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
